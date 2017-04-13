@@ -1,0 +1,1 @@
+<span class="right">© 2016 praeceptore.com - All Rights Reserved.</span>

@@ -1,0 +1,193 @@
+body{
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+.tutor-profile-main-divx{margin-top: 50px;}
+.tutor-profile-div{
+    
+    width: 75%;
+    margin: 10px 12.5%;
+}
+.tutor-profile-divs{
+    float: left;
+    box-sizing: border-box;
+    
+}
+.tutor-profile-infos{
+    width: 70%;
+    margin-right: 10px;
+}
+.tutor-profile-personal-info{
+    border: 1px solid #cdcdcd;
+    
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+.clear{
+    clear:both;
+}
+
+.basic-image{
+    float: left;
+    box-sizing: border-box;
+    padding: 20 0 20 20px;
+}
+.tutor-profile-basic{
+    box-sizing: border-box;
+    
+}
+.tutor-profile-basic .span1{
+    font-size: 22px;
+    font-family: arial;
+    margin-bottom: 4px;
+    margin-top: 10px;
+    
+    word-spacing: 3px;
+}
+.tutor-profile-basic .span2{
+    font-size: 15px;
+    color: #1a1a1a;
+    padding-top: 8px;
+}
+.span1{color: teal;}
+.span2 .s1{
+    font-size: 12px;
+    color: #474747;
+}
+.span2{
+    font-family: inherit;
+	font-size: 14px;
+}
+.span4{font-size: 14px;}
+.span3 .s1{font-size: 12px;}
+.span4 .s1{
+    font-size: 12px;
+    color: #7a7a7a;
+}
+.span3{
+    color: #4f4f4f;
+    font-size: 14px;
+}
+.tutor-profile-exp-skills{
+    margin-bottom: 10px;
+}
+.exp-skills{
+    float: left;
+    background-color: #fff;
+	height: 80px;
+}
+.tutor-profile-skills{
+    border: 1px solid #cdcdcd;
+    
+    width: 48%;
+    margin-right: 5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+}
+.tutor-profile-experience{
+    border: 1px solid #cdcdcd;
+    
+    width: 50.5%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.skill-name-img, .exp-name-img, .desc-name-img{
+    float: left;
+    
+}
+.skill-image, .exp-image{width: 24%;}
+.skill-name, .exp-name{width: 76%;color: teal;}
+.skill-name p, .exp-name p{color: #4f4f4f;margin: 5px;margin-left: 0px;font-size:14px;}
+
+.tutor-profile-summary{
+    border: 1px solid #cdcdcd;
+    
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+.desc-image{width: 15%;padding-top: 30px;}
+.desc-name{width: 84%;padding-top: 20px;padding-bottom: 10px;color: teal;}
+.desc-name p{color: #4f4f4f;margin: 5px;margin-left: 0px;font-size:12px;}
+
+
+.tutor-profile-no-review{color: teal;padding: 10px;font-size: 20px;}
+
+.tutor-profile-rating{border: 1px solid #cdcdcd;width: 28%;background-color:#fff;}
+.tprs-div1{border-bottom:1px solid #cdcdcd;}
+.tprs-div2{border-bottom:1px solid #cdcdcd;}
+.tprs-div3{}
+.codexworld_rating_widget{padding: 0px;margin: 0px;float: left;}
+.codexworld_rating_widget li{line-height: 0px;width: 28px;height: 28px;padding: 0px;margin: 0px;margin-left: 2px;list-style: none;float: left;cursor: pointer;}
+.codexworld_rating_widget li span{display: none;}
+.tpr-div{width: 170px;margin:10px auto;}
+.tutor-profile-star{width: 170px;box-sizing: border-box;padding-left: 0px;margin-bottom: 20px;}
+.tutor-profile-avg{width: 170px;box-sizing: border-box;text-align: center;color: teal;font-weight: 600;font-family: arial;margin-bottom: 35px;padding-bottom: 0px;}
+.tutor-profile-avg p{margin-bottom: 5px;font-weight:400;font-size:14px;}
+.tutor-profile-user-rat{width: 170px;box-sizing: border-box;margin-bottom: 20px;padding-bottom: 10px;margin-top:15px;}
+.tp-user-rat{width:170px;text-align:center;padding-top:10px;margin-bottom:10px;}
+.s-your-rating{color:teal;font-size:14px;font-weight:400;} 
+.tp_rating{width:160px;margin-left: 10px;}
+.tutor-profile-hire{text-align: center;box-sizing: border-box;margin-top:12px;}
+.tutor-profile-hire p{display: inline-block;background-color: teal;color: #fff;padding: 10px 20px;}
+
+/*---------------------------------account.php-----------------*/
+.user-profile-divx{border: 1px solid #e1e1e1;width: 70%;margin: 40px auto;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}        
+        .profile-divx12{float: left;}
+        .user-profile-div-aside1{width: 30%;box-sizing: border-box;padding: 10 20px;border-right: 1px solid #e1e1e1;min-height: 360px;}
+        .user-profile-div-aside2{width: 70%;box-sizing: border-box;padding:10 20px;}
+        .clear{clear: both;}
+        .user-profile-div-aside1 h3{color: teal;font-size: 20px;font-weight: 600;margin-bottom: 40px;}
+        .user-profile-div-aside1 a{text-decoration: none;color: #666666;font-size: 16px;display: inline-block;margin-bottom: 8px;font-size: 14px;font-family: sans-serif;}
+        .user-profile-div-aside1 .cp-active{color: #000;font-weight: 600;}
+        .user-profile-div-aside1 a:hover{color: #000;}
+        .user-profile-div-aside2 h3{color: teal;font-size: 20px;font-weight: 600;padding-left: 10px;}
+        .user-profile-div-aside2 .account-form-field{margin: 10px;}
+        .user-profile-div-aside2 .input{height: 35px;outline: none;border: 1px solid #b3b3b3;padding-left: 10px;color: teal;width: 40%;}
+        .account-form-field .input:focus{border: 1px solid #009ACD;}
+        .account-form-field .city{width: 40%;height: 35px;color: #575757;padding-left: 5px;}
+        .account-form-field .submit-btn{border: 1px solid teal;color: #fff;height: 35px;padding: 10px 30px;background-color: teal;cursor: pointer; }
+        .account-form-field .submit-btn:hover{background-color: #008B8B;}
+        .account-form-field .acc-error{color: red;font-size: 12px;margin-left: 20px;}
+		.user-profile-div-aside2 .notify{color:teal;padding-left: 10px;font-size: 14px;}
+		.user-profile-div-aside2 .user_review{border:1px solid #cdcdcd;margin-bottom:10px;padding-left:10px;}
+		.user-profile-div-aside2 .user_review .edel{text-align:right;margin-bottom:5px;margin-top:5px;}
+		.user-profile-div-aside2 .user_review .title{font-size:17px;color:teal;margin-bottom:10px;margin-top:0px;font-weight:600;}
+		.user-profile-div-aside2 .user_review .desc{font-size:13px;color:#333;margin-bottom:10px;margin-top:0px;}
+		.user-profile-div-aside2 .user_review .tutor{font-size:10px;color:#666;margin-bottom:10px;margin-top:0px;}
+		.user-profile-div-aside2 button{cursor:pointer;border:0px;background:#f5f5f5;margin-right:10px;}
+		.jq-edit{background:#3ae;outline:none;padding:5px;color:green;border:1px solid green;font-weight: 700;}
+		.jq-editrt{border: 1px solid green;font-family: serif;}
+		.btnEditAction, .btnDeleteAction{outline:none;}
+
+.post-reviews{width:75%;margin:50px 12.5%;border:1px solid #e3e3e3;background-color:#fff;}
+.post-reviews .p1{color:teal;font-size:20px;margin:10px 20px;font-weight:600;}
+.post-reviews .p2{color:#333;font-size:16px;margin:5px 20px;text-align:right;}
+.post-reviews .review-error-msg{color:red;font-size:12px;margin:5px 20px;}
+.post-reviews input{margin:5px 20px 0px;height:35px;width:80%;padding:5px 10px;border:1px solid #999;background:#fff;}
+.post-reviews .input-desc{height:60px;padding:5px 10px;}
+.post-reviews button{border:none;color:#fff;background:teal;margin:5px 20px;padding:10px 20px;outline:none;font-size:16px;cursor:pointer;}
+.post-reviews button:hover{background:#3ab5cc;}
+.tutor-review-list{border: 0.5px solid #e1e1e1;padding-left: 10px;background-color: #fff;width:75%;margin:5px 12.5%}
+.review-header{font-size: 18px;margin-bottom: 0px;color: teal;}
+.review-desc{font-size: 14px;margin-bottom: 0px;margin-top: 5px;color: #383838;}
+.reviewer-name{font-size: 12px;color: #4f4f4f;margin-top: 6px;}
+
+#view_course_part1{background: #00a5bb;height: 100px;box-sizing: border-box;margin-top: 0px;}
+#view_course_part1 p{width: 80%;color: #fff;font-size: 36px;font-family: helvetica;font-weight: 600;margin: auto 10%;padding-left: 30px;padding-top: 40px;}
+#view_course_part2{width: 80%;box-sizing: border-box;border: 0px solid red;margin: 10px 10%;}
+#view_course_part2 .course1{margin: 50px 20px;border: 0px solid blue;}
+#view_course_part2 .d-main{overflow: hidden;margin-top:40px;border: 1px solid #afafaf;background-color: #fff;width: 31%;box-shadow: 0 3px 0px #afafaf;float: left;margin-left: 20px;}
+#view_course_part2 .d-main .d1{border-bottom: 1px solid #afafaf;}
+#view_course_part2 .d-main .d2{height: 150px;}
+#view_course_part2 .d-main .d1 img{width: 100%;height: 170px;}
+#view_course_part2 .d-main .d2 p{color: #00a5bb;padding: 5px 10px 5px 10px;font-family: neue;}
+#view_course_part2 .d-main .d2 a{text-decoration: none;color: #0052d4;}
+#view_course_part2 .d-main .d2 a:hover{color: coral;}
+#view_course_part2 .d-main .d2 p:nth-child(1){margin-top: 0;margin-bottom: 0px;padding-top: 30px;}
+#view_course_part2 .d-main .d2 p:nth-child(2){margin-top: 0;margin-bottom: 0px;}
+#view_course_part2 .d-main .d2 p:nth-child(3){margin-bottom: 0;margin-top: 0;padding-bottom: 20px;font-size: 16px;text-align: right;padding-top: 5px;}
+
+

@@ -1,0 +1,314 @@
+body{
+    margin: 0;
+    padding: 0;
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+/* -------------------------------header.php------------------------------*/
+.clear{
+    clear: both;
+}
+.new_header{width: 100%;background: ;}
+.new_header .nav{border-bottom: 0px solid #fff;padding-bottom:10px;padding-top:0px;background:#fff;border-bottom: 1px solid #e3e3e3;}
+.new_header .nav .logo{float: left;height: 40px;text-align: center;box-sizing: border-box;padding-top: 5px;margin-left: 50px;margin-top: 10px;border: 0px solid #333;color: #000;}
+.new_header .nav .menu{float: right;max-width: 400px;margin-right: 50px;margin-top: 15px;border: 0px solid #333;}
+.clear{clear: both;}
+.new_header .nav .logo a{text-decoration: none;color: #00a5bb;font-size: 24px;font-family: arial;font-weight: 600;transition: letter-spacing 1s linear;}
+.topnav{list-style-type: none;background: ;overflow: hidden;padding: 0;margin: 0;}
+.topnav li{float: left;}
+.topnav li a{color: #00a5bb;text-decoration: none;display: inline-block;padding: 8px 12px;text-align: center;font-size: 14px;margin-right: 10px;}
+.topnav li a.signin{box-sizing: border-box;border: 1px solid #00a5bb;border-radius: 2px;background: ;color: #00a5bb;}
+.topnav li a:hover{background: #fff;color: #000;}
+.topnav li a.signin:hover{border: 1px solid #000;}
+.topnav li.icon{display: none;}
+@media screen and (max-width:480px){
+    .topnav li{display: none;}
+    .topnav li.icon{float: right;display: inline-block;}
+    .responsive{position: absolute;width: 200px;right: 0;height: 100%;background: #004e98;}
+    .responsive li.icon{position: absolute;top: 0;right: 0;}
+    .responsive li{display: inline;float: none;}
+    .responsive li a{display: block;text-align: right;}
+    .responsive li a.reslink{margin-top: 60px;}
+}
+    
+#view_course_part1{background: #00a5bb;height: 100px;box-sizing: border-box;margin-top: 0px;}
+#view_course_part1 p{width: 80%;color: #fff;font-size: 36px;font-family: helvetica;font-weight: 600;margin: auto 10%;padding-left: 30px;padding-top: 40px;}
+#view_course_part2{width: 80%;box-sizing: border-box;border: 0px solid red;margin: 10px 10%;}
+#view_course_part2 .course1{margin: 20px 20px;border: 0px solid blue;}
+#view_course_part2 .d-main{overflow: hidden;border: 1px solid #afafaf;background-color: #fff;width: 31%;box-shadow: 0 3px 0px #afafaf;float: left;margin-left: 20px;margin-top:40px;margin-bottom:20px;}
+#view_course_part2 .d-main .d1{border-bottom: 1px solid #afafaf;}
+#view_course_part2 .d-main .d2{height: 150px;}
+#view_course_part2 .d-main .d1 img{width: 100%;height: 170px;}
+#view_course_part2 .d-main .d2 p{color: #00a5bb;padding: 5px 10px 5px 10px;font-family: neue;}
+#view_course_part2 .d-main .d2 a{text-decoration: none;color: #0052d4;}
+#view_course_part2 .d-main .d2 a:hover{color: coral;}
+#view_course_part2 .d-main .d2 p:nth-child(1){margin-top: 0;margin-bottom: 0px;padding-top: 30px;}
+#view_course_part2 .d-main .d2 p:nth-child(2){margin-top: 0;margin-bottom: 0px;}
+#view_course_part2 .d-main .d2 p:nth-child(3){margin-bottom: 0;margin-top: 0;padding-bottom: 20px;font-size: 16px;text-align: right;padding-top: 5px;}
+
+#view_course_partU{background: #00a5bb;height: 100px;box-sizing: border-box;margin-top: 0px;}
+#view_course_partU p{width: 90%;color: #fff;font-size: 30px;font-family: helvetica;font-weight: 600;margin: auto 5%;padding-left: 0px;padding-top: 40px;}
+#view_course_partU p .topic{font-size:24px;}   
+#view_course_partU p .lession{font-size:16px;font-weight:600;}   
+    .prae-course-sheet{width: 80%;box-sizing: border-box; border: 0px solid red;padding: 10px;}
+      .tabs-header{background-color: #00a5bb;padding-top: 10px;border: 1px solid #00a5bb;box-sizing: border-box;border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom: 0;}
+      .tabs-header .tab{list-style-type: none;background-color: #00a5bb;padding: 0;overflow: hidden;margin: 0;}
+      .tabs-header ul.tab li {float: left;}
+      .tabs-header ul.tab li a{text-decoration: none;color: #1A7C89;display: inline-block;text-align: center;padding: 14px 25px;font-size: 18px;margin-left: 20px;background: #fff;border-top-left-radius: 3px;border-top-right-radius: 3px; font-family: arial;box-sizing: border-box;width: 120px;}
+      .tabs-header ul.tab li a:hover {background-color: #ddd;}
+      .tabs-header ul.tab li a:focus, .active {background-color: #fff;font-weight: 600;height: 51px;}
+      .tabs-header .defaultOpen{background-color: #fff;font-weight: 600;height: 51px;}
+      .tabs-desc{background-color: #fff;box-sizing: border-box;}
+      .tabs-desc .tabcontent{display: none;border: 1px solid #1c8896;border-top: none;padding: 15px 20px;color:#3ae;}
+    
+    .tabcontent .start_quiz{margin: 10px 50px;}
+    .tabcontent .start_quiz p{color: rgb(0, 188, 212);}
+    .tabcontent .start_quiz label{font-size: 15px;color: #3a6ea5;font-family: Neue;}
+    .tabcontent .quiz_submit button{font-size: 18px;outline: none;border: 0px;padding: 10px 30px;background:#00a5bb;color: #fff;cursor: pointer;margin: 10px 50px;}
+    .tabcontent .quiz_submit button:hover{background: #3a6ea5;} 
+    
+    .view-this-course{margin-top: 30px;}
+    .ctl{float: left;}
+    .course-topic-list{border: 0px solid red;width: 18%;box-sizing: border-box;}
+    .course-topic-list p{margin: 10px;}
+    .course-topic-list p a{text-decoration: none;color: #fff;display: inline-block;background: #00a5bb;padding: 10 10px;border-radius: 3px;font-size: 14px;width:90%;}
+    .course-topic-list p a:hover{background-color: teal;}
+
+/* -------------------------------loginpage.php------------------------------*/
+.login-popup-div{margin: 100px auto;}
+.login-popup-div{border: 1px solid #e1e1e1;max-width: 550px;box-shadow:0px 0px 6px 0 #999;background:#fff;}
+.aside12{float: left;}
+.login-aside1{text-align: center;color: teal;padding: 30px;}
+.login-aside1 p{margin-top: 5px;}
+.login-aside2{max-width: 400px;width: 300px;}
+.login-error{color: red;font-size: 14px;margin: 10 10 30px;}
+.login-form-field{margin: 10px;}
+.login-form-field .form-input{height: 35px;width: 100%;outline: none;border: 1px solid #b3b3b3;padding-left: 10px;color: teal;}
+.login-form-field .form-input:focus{border: 1px solid #009ACD;}
+.login-form-field .form-checkbox{height: 12px;cursor: pointer;}
+.login-form-field label{font-size: 12px;color: teal;}
+.login-form-field span{margin-right: 70px}
+.login-form-field a{text-decoration: none;color: teal;}
+.login-form-field .submit-btn{height: 35px;border: 1px solid teal;background-color: #1A7C89;width: 100%;color: #fff;font-size: 17px;cursor: pointer;margin-top: 5px;}
+.login-form-field .submit-btn:hover{background-color: #00868B;}
+.login-text-signup{margin-left: 10px;}
+.login-text-signup span{color: teal;font-size: 12px;}
+.login-text-signup a{color: teal;font-size: 14px;}
+
+
+/* -------------------------------signuppage.php------------------------------*/
+.signup-popup-div{margin: 100px auto;border: 1px solid #e1e1e1;max-width: 600px;box-shadow:0 2px 4px 0 #999;background:#fff;}
+.signup-12{float: left;}
+.signup-aside1{color: teal;padding: 20px 30px;}
+.signup-aside1 li{list-style-type: none;padding-bottom: 5px;font-weight: 400;}
+.signup-aside1 .p1{padding-left: 20px;font-size: 20px;margin-top: 10px;}
+.signup-aside1>img{padding-left: 10px;}
+.signup-aside2{max-width: 400px;width: 300px;margin-left: 20px;margin-top: 20px;}
+.signup-aside2 .reg_error{color: red;font-size: 14px;}
+
+
+
+/* -------------------------------tutordesc.php------------------------------*/
+.tutor-desc-popup-div{border: 1px solid #e1e1e1; max-width: 800px;margin:50px auto;box-shadow: 0 0 8px 0 rgba(0,0,0,0.3);}
+.tutor-desc-header1{background-color: #e5e5e5;color: teal;border: 1px solid #e1e1e1;text-align: center; max-width: 800px;}
+.tutor-desc-field1{padding: 30 10px;width: 750px;max-width: 800px;}
+.tutor-desc-field1 select{color: teal;height: 30px;font-size: 16px;border: 1px solid teal;border-radius: 3px;outline: none;background-color: #fff;}
+.tutor-desc-field1 .s9{font-size: 13px;color: teal;}
+.tutor-desc-field2{border-top: 1px solid #e1e1e1;width: 780px;max-width: 800px;padding-right: 20px;}
+.tutor-desc-form-field{margin: 10px;}
+.tutor-desc-form-field .tutor-desc-input{height: 35px;width: 100%;outline: none;border: 1px solid #b3b3b3;padding-left: 10px;color: teal;}
+.tutor-desc-form-field .tutor-desc-input:focus,.tutor-desc-textarea:focus{border: 1px solid #009ACD;}
+.tutor-desc-textarea{width: 100%;outline: none;color:teal;font-family:arial;font-size:14px;padding-top:5px;padding-left:10px;}
+.tutor-desc-form-field .submit-btn{outline: none;border: 1px solid teal;color: #fff;font-size: 19px;cursor: pointer;border-radius: 3px;background-color: teal;padding: 10px 30px;}
+.tutor-desc-form-field .submit-btn:hover{background-color:teal;}
+.tutor-desc-header2{border: 1px solid #e1e1e1;max-width: 800px;}
+.tutor-desc-text-signup{color: teal;padding-left: 10px;}
+.tutor-desc-form-field .tutor-desc-error{color: red;font-size: 14px;}
+.tutor-desc-field1 .tutor-desc-error{color: red;font-size: 14px;padding-bottom: 10px;}
+.tutor-email-verify .tss{color: teal;}
+.tutor-email-verify{border: 1px solid #fff; margin-top:10px;margin-bottom: 10px;padding: 10px;background: #fff;color: red;max-width: 780px; }
+
+
+/* -------------------------------fund-tutor.html------------------------------*/
+.main-find-tutor-page{margin: 100px auto;max-width: 500px;}
+.find-tutor-html{border: 1px solid #e1e1e1;max-width: 500px;}
+.find-tutor-header1{border-bottom: 1px solid #e1e1e1;}
+.quotes-img{float: left;}
+.find-tutor-img1{margin: 10px}
+.find-tutor-quotes1{height: 100px;text-align: center;font-size: 16px;font-family: sans-serif;color: teal;}
+.find-tutor-quotes1 p{margin: 35px 20px;}
+.find-tutor-info1{}
+.find-tutor-error1{color: red;font-size: 14px;margin: 10 10 10 30px;}
+.find-tutor-box1{margin: 10 10 10 30px;}
+.find-tutor-form1{margin-bottom: 10px;}
+.find-tutor-form1 select{
+    color: teal;
+    height: 30px;
+    font-size: 16px;
+    border: 1px solid teal;
+    border-radius: 3px;
+    background-color: #e1e1e1;
+    outline: none;
+}
+.find-tutor-form1 .submit-btn{
+    height: 30px;
+    font-size: 16px;
+    background-color: cadetblue;
+    color: #fff;
+    outline: none;
+    padding: 2px 20px;
+    border: 1px solid cadetblue;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+
+
+
+/* ------------------------------ findtutor.php---------------------------------*/
+.find-tutor-div{
+    width: 80%;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 20px 10%; 
+    padding: 20 10 20 30px;
+}
+.find-tutor-imageinfo{
+    float: left;
+}
+.clear{
+    clear:both;
+}
+.find-tutor-infolink{
+    float: left;
+}
+.find-tutor-image{
+    width: 15%;
+}
+.find-tutor-info{
+    width: 85%;
+}
+.find-tutor-short-info{
+    width: 73%;
+}
+.find-tutor-profile-link{
+    box-sizing: border-box;
+    width: 25%;
+}
+.find-tutor-profile-link p{
+    background: #33495f;
+    padding: 10px 50px;
+    border-radius: 3px;
+}
+.find-tutor-profile-link p:hover{background-color:#0086d4;}
+.find-tutor-profile-link a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    word-spacing: 4px;
+  
+}
+.find-tutor-name-rating{
+    color:    #00a6d4;
+}
+.find-tutor-name-rating span{
+    color: #0086d4;
+    font-size: 22px;
+}
+.find-tutor-desc{
+    color: #000;
+	font-size:14px;
+}
+.find-tutor-skills{
+    color: #00a6d4;
+	font-size:14px;
+}
+
+/*--------------------------tutorresult.php pagination ----------------------*/
+.paginate {
+font-family:Arial, Helvetica, sans-serif;
+	padding: 3px;
+	margin: 3px;
+}
+
+.paginate a {
+	padding:2px 5px 2px 5px;
+	margin:2px;
+	border:1px solid #999;
+	text-decoration:none;
+	color: #666;
+}
+.paginate a:hover, .paginate a:active {
+	border: 1px solid #999;
+	color: #000;
+}
+.paginate span.current {
+    margin: 2px;
+	padding: 2px 5px 2px 5px;
+		border: 1px solid #999;
+		
+		font-weight: bold;
+		background-color: #999;
+		color: #FFF;
+	}
+	.paginate span.disabled {
+		padding:2px 5px 2px 5px;
+		margin:2px;
+		border:1px solid #eee;
+		color:#DDD;
+	}
+
+/*---------------------userprofile.php---------------------*/
+.user-profile-popup-div{color:teal;font-size: 14px;margin: 200px auto;}
+
+
+/*---------------------header on login---------------------*/
+
+.scroll_header2{background-color: #fff;height: 60px;border: 0px;width: 100%;border-bottom:1px solid #e3e3e3;}
+.scroll_logo3{margin: 15px 20px 20px;font-size: 24px;float:left;color: teal;margin-left: 35px;font-weight: 600;}
+.scroll_nav3{max-width: 400px;float: right;margin-right: 50px;margin-top: 12px;}
+.scroll_nav3  ul {list-style-type: none;margin: 0;padding: 0;}
+.scroll_nav3  li {float: left;}
+.scroll_nav3  li > a, .dropbtn {display: inline-block;color: #00a5bb;text-align: center;text-decoration: none;padding: 10px 16px;font-size:14px;}
+.scroll_nav3 li > a:hover, .dropdown:hover .dropbtn {background-color: rgb(0, 188, 212);color: #000;}
+li.dropdown{display: inline-block;}
+.dropdown-content{display: none;position: absolute;background-color: #f9f9f9;max-width: 100px;min-width: 100px; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);}
+.dropdown-content a{color: #000;text-decoration: none;text-align: center;display: block;padding: 12px 16px;}
+.dropdown-content a:hover {background-color: #f1f1f1;color: #000;}
+.dropdown:hover .dropdown-content {display: block;}
+.clear{clear: both;}
+
+.search-resulttt{width:50%;margin:50px 25%;border:1px solid #e3e3e3;background-color:#fff;text-align:center;box-shadow: 0 0 8px 0 rgba(0,0,0,0.3);}
+.search-resulttt p{text-align:center;color:#000;}
+table, tr, th, td{border:1px solid #e3e3e3;text-align:center;}
+th, td{padding:15px;}
+td{color:#3a6ea5;}
+td a{color:blue;}
+table{border-collapse:collapse;margin:20px;}
+
+
+.tutor-contact-s1{
+	border: 1px solid #cdcdcd;
+    background-color: #fff;
+	margin-left: 5px;
+	padding: 10px 15px;
+}
+.tutor-contact-s1 span.sp1{
+	margin-left: 20px;
+	color: teal;
+	font-weight: 600;
+}
+.tutor-contact-s1 p{
+	color:#4f4f4f;
+}
+
+
+
+
+
+
+
+
+
+
+
